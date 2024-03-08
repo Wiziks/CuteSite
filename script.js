@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         noButton.remove();
         text.textContent = "Подумай ще раз!";
         image.src = "Images/No.jpg";
+        image.style.width = "100%";
     });
 
     yesButton.addEventListener('click', (event) => {
@@ -15,5 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         noButton.remove();
         text.textContent = "Я знаю ;)";
         image.src = "Images/Yes.jpg";
+        image.style.width = "100%";
     });
 })
